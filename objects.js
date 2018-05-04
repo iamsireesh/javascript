@@ -39,3 +39,44 @@ rahul.job = 'Cricketer';
 
 
 console.log(rahul)
+
+
+console.log("**************** Java Script Objects and Methods *******************");
+
+//v1.0
+
+var kohliv1 = {
+    firstName: "Virat",
+    lastName: "Kohli",
+    yearOfBirth: 1987,
+    isMarried: false,
+    job: 'Cricketer',
+    family: ['anushka','ramesh','suresh'],
+    /*calculateAge: function(year) {
+        return 2018 - year;
+    },*/
+    calculateAge: function() {
+        return 2018 - this.yearOfBirth;
+    }
+}
+
+//var age = calaculateAge(1990);
+console.log(kohliv1);
+var age = kohliv1.calculateAge();
+console.log(age);
+
+console.log(kohliv1);
+
+var kohliv2 = {
+    firstName: "Virat",
+    lastName: "Kohli",
+    yearOfBirth: 1995,
+    isMarried: false,
+    job: 'Cricketer',
+    family: ['anushka','ramesh','suresh'],
+    calculateAge: function() {
+        this.age =  2018 - this.yearOfBirth;
+    }
+}
+
+console.log(kohliv2);
