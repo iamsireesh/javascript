@@ -31,3 +31,47 @@ if (23 === '23' ) {  //false
 } else {
     console.log('Not Equal')
 }
+
+
+//Boolean Logic and Switch Statements
+
+console.log("**************Boolean Logic and Switch Statements**************")
+
+var age = 30;
+
+if( age < 20 ) {
+    console.log("Mark is a teenager..")
+} else {
+    console.log("Mark is a man..")
+}
+
+
+var age = 25;
+
+if( age < 20 ) {
+    console.log("Mark is a teenager..")
+} else if( age > 20 && age < 30 ) {
+    console.log("Mark is young man..")
+} else {
+    console.log("Mark is a man..")
+}
+
+
+var job = prompt("What does mark do?");
+
+switch(job) {
+    case 'teacher':
+        console.log("Mark teaches kids");
+        break;
+    case 'cop':
+        console.log("Mark helps to reduce crime");
+        break;
+    case 'driver':
+        console.log("Mark drives the car");
+        break;
+    default:
+        console.log('Mark does the following job:- '+job);
+    
+}
+
+
