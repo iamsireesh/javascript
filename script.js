@@ -1,4 +1,4 @@
-console.log("Hello World! Welcome to JavaScript Language Basics")
+console.log("Hello World!! Welcome to JavaScript Language Basics")
 
 //Data Types
 console.log("**********Data Types**********");
